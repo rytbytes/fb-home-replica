@@ -14,7 +14,7 @@ html, body{
 
 a{
 	text-decoration: none !important;
-	color: #6699ff;
+	color: rgb(54, 88, 153);
 }
 
 b{
@@ -28,63 +28,96 @@ b{
 }
 
 #row2{
-	
-	height: 85%
+	background-image: linear-gradient(rgb(255, 255, 255), rgb(211, 216,232));
+	height: 87%
+}
+
+.ex-margin{
+	margin-bottom: 1%;
+	margin-top: 1%;
+}
+
+.form-div{
+	padding-left: 11%;
 }
 
 .input_field{
+	
 	font-size: 18px;
 	padding: 1%;
 	margin-top: 1%;
-
 }
 
 .name_field{
-	width: 27%;
+	width: 35%;
 }
 #surname_field{
-	margin-left: 1.8%;
+	margin-left: 1%;
 }
 
 .other_field{
-	width: 60%;
+	width: 70%;
 }
 
 .select_field{
-	width: 10%;
+	width: 30%;
 	margin-top: 1%;
 	font-size: 16px;
 }
 
 .sub_text{
-	width: 20%;
+	float: right;
+	width: 40%;
 	font-size: 12px;
 }
 
-.radio_field{
-	font-size: 18px;
-	width:100%;
-	
-	margin-top: 1%;
-}
-.heading1{
-	margin-top: 5%;
-	font-size: 32px;
-	font-family: arial;
-}
-
-.heading2{
-	font-size: 18px;
-	font-family: arial;
-
+.select-line{
+	width: 60%;
 }
 
 #select_div{
-	width: 100%;
+
+	width: 60%;
 }
 
+
+.radio_field{
+	color: rgb(29, 33, 41);
+	font-size: 18px;
+	font-weight: 400;
+	width:100%;
+	margin-bottom: 2%;
+	margin-top: 2%;
+	cursor: pointer;
+	padding-left: 3px;
+	padding-right: 10px;
+}
+
+.heading1{
+	width: 100%;
+	margin-top: 4%;
+	font-size: 36px;
+	font-family: arial;
+	font-weight: 700;
+}
+
+.heading2{
+	width: 100%;
+	font-size: 18px;
+	font-family: arial;
+	margin-top: 1%;
+	margin-bottom: 1%;
+}
+
+.main-form{
+	margin-top: 2%;
+	margin-bottom: 1%;
+}
+
+
 #info_div{
-	font-size: 12px;
+	color: rgb(119, 119, 119);
+	font-size: 11px;
 	width: 60%;
 	margin: 1%;
 }
@@ -99,21 +132,36 @@ b{
 	color: #fff;
 }
 
+#celeb-text{
+	font-size: 13px;
+	font-weight: 700;
+	color: rgb(102, 102, 102);
+}
+
+.col1{
+	padding-top: 5%;
+	padding-left: 10%;
+}
+
 #image{
-	background-image: url(../img/image2.png);  	
+		background-image: url(../img/image2.png);  	
     	background-repeat: no-repeat;
     	display: inline-block;
     	width: 537px;
     	height: 195px;
-    	margin-top: 5%;
+    	margin-top: 1%;
     	margin-left: 15%;
-    	top: 0px;
-    	
-}
+    	top: 0px;  	
+	}
 
-.side_title{
-	margin-left: 5%;
-	
+.side-title{
+	width: 80%;
+	font-size: 20px;
+	font-weight: 600;
+	font-family: arial;
+	margin-top: 2%;
+	margin-bottom: 1%;
+	margin-left: 20%;
 	color: #0000ff;
 }
 
@@ -171,7 +219,7 @@ b{
 }
 
 #forget-acct{
-
+	color: rgb(156, 180, 216);
 	font-size: 12px;
     font-weight: 400;
 }
